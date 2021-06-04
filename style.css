@@ -1,134 +1,160 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Nunito, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Nunito, sans-serif;
 }
 
 .wrapper {
-    display: flex;
-    height: 90vh;
-    border: 1px solid #111;
-    border-radius: 2px;
-    box-shadow: 0.6em 0.6em 5px 0 #111;
-    background-color: #fff;
+  display: flex;
+  height: 90vh;
+  border: 1px solid #111;
+  border-radius: 2px;
+  box-shadow: 0.6em 0.6em 5px 0 #111;
+  background-color: #fff;
 }
 
 form {
-    padding: 1rem;
-    width: 30em;
-    display: flex;
-    flex-direction: column;
+  padding: 1rem;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
-    width: 10em;
-    height: 100%;
-    color: #fff;
-    background-color: #111;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-weight: bolder;
-    letter-spacing: 5px;
+  width: 10em;
+  height: 100%;
+  color: #fff;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 5px;
 }
 
 form h4 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    text-transform: capitalize;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 input {
-    font-size: 0.7rem;
-    width: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
-    border-radius: 2px;
-    outline: none;
-    border: 1px solid darkblue;
-    position: relative;
-} 
-
-form i {
-    position: absolute;
+  font-size: 0.7rem;
+  width: 95%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* padding-left: 0.5rem; */
+  padding-right: 0.5rem;
+  /* margin-bottom: 1rem; */
+  border-radius: 2px;
+  outline: none;
+  /* border: 1px solid darkblue; */
+  border: none;
+  /* position: relative; */
+  /* border-bottom: 1px solid darkblue; */
 }
+
+.input-group:nth-child(2) .input-box {
+  border-bottom: 1px solid darkblue;
+  margin-bottom: 1rem;
+}
+.input-group:nth-child(3) .input-box {
+  border-bottom: 1px solid darkblue;
+  margin-bottom: 1rem;
+}
+.input-group:nth-child(4) .input-box input {
+  border-bottom: 1px solid darkblue;
+  margin-bottom: 1rem;
+}
+.input-group:nth-child(6) .input-box {
+  border-bottom: 1px solid darkblue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.input-group:nth-child(7) .input-box:nth-child(1) {
+  border-bottom: 1px solid darkblue;
+  margin-bottom: 1rem;
+}
+
+/* form i {
+  position: absolute;
+} */
 
 [class="fa fa-user icon"] {
-    left: 60.5rem;
-    margin-top: 0.5rem;
-    color:cornflowerblue;
+  /* left: 60.5rem; */
+  float: right;
+  margin-top: 0.5rem;
+  color: cornflowerblue;
 }
-[class='fa fa-envelope'] {
-    left: 60.2rem;
-    margin-top: 0.5rem;
-    color:cornflowerblue;
+[class="fa fa-envelope"] {
+  /* left: 60.2rem; */
+  float: right;
+  margin-top: 0.5rem;
+  color: cornflowerblue;
 }
 [class="fa fa-credit-card icon"] {
-    left: 60.1rem;
-    margin-top: 0.5rem;
-    color:cornflowerblue;
+  /* left: 60.1rem; */
+  float: right;
+  margin-top: 0.5rem;
+  color: cornflowerblue;
 }
 
 .input-box > ::placeholder {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-[class='dob'] {
-    width: 5rem;
+[class="dob"] {
+  width: 5rem;
 }
 
 [class="radio"] {
-    width: 0.8rem;
-    height: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
 }
 
 label {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 #b2 {
-    margin-left: 4.5rem;
- 
+  margin-left: 4.7rem;
 }
 #bc2 {
-    margin-left: 7rem;
-    margin-right: 3px;
+  margin-left: 1rem;
+  margin-right: 3px;
 }
 
 select {
-    width: 5rem;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
-    outline: none;
-    border: 1px solid darkblue;
+  width: 5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkblue;
 }
 
 button {
-    background-color: #111;
-    color: #ddd;
-    cursor: pointer;
-    font-size: 0.7rem;
-    font-weight: bolder;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border: none;
-    outline: none;
-    border-radius: 2px;
+  background-color: #111;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: bolder;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 2px;
 }
 .input-group:last-child {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
-    
