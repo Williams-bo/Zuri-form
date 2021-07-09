@@ -1,1 +1,1 @@
-## [Zuri-Registration-form](https://williams-bo.github.io/form-zuri/)
+## [Build a Registration form - Task I ZuriTraining](https://williams-bo.github.io/form-zuri/)
